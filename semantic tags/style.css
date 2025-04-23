@@ -1,0 +1,48 @@
+#email {
+}
+
+#submit {
+  background-color: #10c91a;
+  color: rgb(255, 255, 255);
+  border: 2px solid #020202;
+  border-radius: 5px;
+}
+
+#comment {
+  height: 70px;
+  width: 80%;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.ep {
+  border: 2px solid #000;
+  border-radius: 5px;
+  margin: 10px;
+}
+.LS {
+  border: #000 solid 2px;
+  border-radius: 20px;
+  background-color: #000;
+  color: white;
+  font-style: italic;
+}
+
+body {
+  /* background-color: black;
+    color: white; */
+  margin-inline-start: 5vh;
+  margin-inline-end: 5vh;
+  /* width: 80%; */
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}

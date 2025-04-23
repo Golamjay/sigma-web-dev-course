@@ -1,0 +1,28 @@
+@font-face {
+  font-family: myfont;
+  src: url(Oswald-Bold.ttf) format('truetype');
+}
+/* with @font-face i can create a custom font and use it in my css file. we can use any font we want, but we need to have the font file in the same directory as our css file. we can also use fonts from google fonts or other sources, then using src: url we can type the name of the font present in  the file, like above or can use the link of the font. */
+.line1 { 
+  background-color: red;
+  color: rgb(15, 15, 15);
+  font-family: 'myfont', sans-serif;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+}
+/* (.)is used for targeting class and (#) for id */
+h1 {
+  text-align: center;
+  font
+}
+.clickme {
+  border-radius: 20px;
+  background-color: rgb(45, 45, 46);
+  color: white;
+  padding: 10px;
+}
+.clickme:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}

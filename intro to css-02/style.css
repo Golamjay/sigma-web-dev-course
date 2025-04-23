@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  background-color: aqua;
+}
+.box1 {
+  color: red;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 3px;
+  /* just height of the element */
+  height: 100px;
+  /* now if i say box-sizing border box then the total height will be 100px including the padding and border  */
+  box-sizing: border-box;
+}
+.box2 {
+  color: rgb(64, 14, 201);
+}

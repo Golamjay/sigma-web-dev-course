@@ -1,0 +1,36 @@
+td {
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+body {
+    background: linear-gradient(135deg, #ff758c, #ff7eb3, #8e7cc3);
+    color: white;
+    text-align: center;
+}
+
+logo {
+    background-color: rgba(133, 53, 53, 0.5);
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding-inline: 10;
+    padding-bottom: 5px;
+}
+@font-face {
+    font-family: Paint-01;
+    src: url(Painting_With_Chocolate.ttf);
+}
+
+
+span{
+    font-size: larger;
+    font-family: Paint-01;
+}
